@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BE91D04201ECF2A801B5A2989A96F559495769EF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A312D9A806D0D2A0881387E6F394BB84B63BC0CD" : 9223372036854775807,
+    "0B6D8AAAD0FF4C01212E6AB2D110619FA685281D" : 9223372036854775807,
+    "BE91D04201ECF2A801B5A2989A96F559495769EF" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5475BD2A-280D-4A93-ADD4-0EA81E25D540",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A312D9A806D0D2A0881387E6F394BB84B63BC0CD" : "F14_MediaConsumption_Survey\/BridgeAppSDK\/",
+    "0B6D8AAAD0FF4C01212E6AB2D110619FA685281D" : "F14_MediaConsumption_Survey\/BridgeAppSDK\/CMSSupport\/",
+    "BE91D04201ECF2A801B5A2989A96F559495769EF" : "F14_MediaConsumption_Survey\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "F14_MediaConsumption_Survey",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "F14_MediaConsumption_Survey.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Sage-Bionetworks\/CMSSupport.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0B6D8AAAD0FF4C01212E6AB2D110619FA685281D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/syoung-smallwisdom\/BridgeAppSDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A312D9A806D0D2A0881387E6F394BB84B63BC0CD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tilljernst\/F14_MediaConsumption_Survey.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BE91D04201ECF2A801B5A2989A96F559495769EF"
+    }
+  ]
+}
