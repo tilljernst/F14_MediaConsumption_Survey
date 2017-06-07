@@ -13,6 +13,7 @@
 		8359EAF71EE8323D00C8A9BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8359EAF51EE8323D00C8A9BE /* Main.storyboard */; };
 		8359EAF91EE8323D00C8A9BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8359EAF81EE8323D00C8A9BE /* Assets.xcassets */; };
 		8359EAFC1EE8323D00C8A9BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8359EAFA1EE8323D00C8A9BE /* LaunchScreen.storyboard */; };
+		8359EB061EE835C200C8A9BE /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8359EB051EE835C200C8A9BE /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		8359EAF81EE8323D00C8A9BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8359EAFB1EE8323D00C8A9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8359EAFD1EE8323D00C8A9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8359EB031EE8359200C8A9BE /* F14_MediaConsumption_Survey.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = F14_MediaConsumption_Survey.entitlements; sourceTree = "<group>"; };
+		8359EB051EE835C200C8A9BE /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8359EB061EE835C200C8A9BE /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +46,7 @@
 			children = (
 				8359EAEE1EE8323D00C8A9BE /* F14_MediaConsumption_Survey */,
 				8359EAED1EE8323D00C8A9BE /* Products */,
+				8359EB041EE835C200C8A9BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +61,7 @@
 		8359EAEE1EE8323D00C8A9BE /* F14_MediaConsumption_Survey */ = {
 			isa = PBXGroup;
 			children = (
+				8359EB031EE8359200C8A9BE /* F14_MediaConsumption_Survey.entitlements */,
 				8359EAEF1EE8323D00C8A9BE /* AppDelegate.swift */,
 				8359EAF11EE8323D00C8A9BE /* MasterViewController.swift */,
 				8359EAF31EE8323D00C8A9BE /* DetailViewController.swift */,
@@ -65,6 +71,14 @@
 				8359EAFD1EE8323D00C8A9BE /* Info.plist */,
 			);
 			path = F14_MediaConsumption_Survey;
+			sourceTree = "<group>";
+		};
+		8359EB041EE835C200C8A9BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8359EB051EE835C200C8A9BE /* HealthKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,6 +115,17 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = GB4K5J8465;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -263,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = F14_MediaConsumption_Survey/F14_MediaConsumption_Survey.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = GB4K5J8465;
 				INFOPLIST_FILE = F14_MediaConsumption_Survey/Info.plist;
@@ -278,6 +304,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = F14_MediaConsumption_Survey/F14_MediaConsumption_Survey.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = GB4K5J8465;
 				INFOPLIST_FILE = F14_MediaConsumption_Survey/Info.plist;
@@ -308,6 +335,7 @@
 				8359EB021EE8323D00C8A9BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
